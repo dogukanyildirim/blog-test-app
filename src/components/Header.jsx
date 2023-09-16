@@ -1,8 +1,8 @@
 import Link from 'next/link'
 
-export default function Header() {
+export default function Header({className}) {
   return (
-    <header>
+    <header className={className}>
     <nav>
       <Link href='/'>anasayfa</Link>
       <Link href='/aboutus'>hakkımızda</Link>
